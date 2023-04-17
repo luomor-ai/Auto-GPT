@@ -6,7 +6,9 @@ services:
   auto-gpt:
     depends_on:
       - redis
-    build: ../
+    build:
+      context: ../
+      dockerfile: Dockerfile
     env_file:
       - .env
     volumes:
