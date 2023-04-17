@@ -1,0 +1,27 @@
+sudo docker-compose run --rm auto-gpt --gpt3only --continuous
+WARNING: Found orphan containers (wordpress, docker_browserless_1, db, docker_rsshub_1, webserver) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up.
+Pulling redis (redis/redis-stack-server:latest)...
+latest: Pulling from redis/redis-stack-server
+47c764472391: Downloading
+47c764472391: Pull complete
+a83b7161ddfe: Pull complete
+1e43fad78c74: Pull complete
+f6b3dc2cfbe9: Pull complete
+8ae058a72145: Pull complete
+ce01c2804ab5: Pull complete
+06909194f8f0: Pull complete
+356551085d8c: Pull complete
+0e8fb6a394a7: Pull complete
+6d6ac3a3d55c: Pull complete
+050df98827d7: Pull complete
+6a48952e448a: Pull complete
+Digest: sha256:aee203bcb37066d362f53b886e4044a23ff3ae2811f34eae9cc0963b6eea37a6
+Status: Downloaded newer image for redis/redis-stack-server:latest
+Creating docker_auto-gpt_run ... done
+Warning: The file 'AutoGpt.json' does not exist. Local memory would not be saved to a file.
+Continuous Mode:  ENABLED
+WARNING:  Continuous mode is not recommended. It is potentially dangerous and may cause your AI to run forever or carry out actions you would not usually authorise. Use at your own risk.
+GPT3.5 Only Mode:  ENABLED
+Welcome to Auto-GPT!  Enter the name of your AI and its role below. Entering nothing will load defaults.
+Name your AI:  For example, 'Entrepreneur-GPT'
+AI Name:

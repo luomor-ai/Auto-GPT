@@ -15,3 +15,7 @@ sudo docker-compose run --build --rm auto-gpt --gpt3only --continuous
 
 docker rmi `docker images|grep none |  awk '{print $3}'`
 ```
+
+```
+公众号 聊天
+```
