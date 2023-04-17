@@ -1,6 +1,6 @@
 ```shell
 cd docker
-sudo docker-compose build
+sudo docker-compose build auto-gpt
 
 sudo docker build -t autogpt .
 sudo docker run -it --env-file=./.env -v $PWD/auto_gpt_workspace:/app/auto_gpt_workspace autogpt
