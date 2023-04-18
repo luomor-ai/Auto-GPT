@@ -18,4 +18,14 @@ docker rmi `docker images|grep none |  awk '{print $3}'`
 
 ```
 公众号 聊天
+公众号 chatgpt
+公众号管理
+微信支付 language:Go
+
+https://github.com/workcheng/weiya
+https://gitee.com/jeequan/jeepay
+https://gitee.com/guchengwuyue/yshopmall
+https://github.com/niefy/wx-manage
+
+https://github.com/luomor-web/PowerWeChat
 ```
